@@ -7,6 +7,7 @@ import {Button} from 'react-native-paper';
 
 import {SimpleCard} from '@components';
 
+import {LoginParams} from '../../app-config/models.ts';
 import {API, STRING, ROUTES} from '../../app-config/constants.ts';
 import {setIsLoad} from '../../redux/actions/appActions.ts';
 import {getData} from '../../services/api/client.ts';
@@ -18,7 +19,7 @@ const MainScreen: React.FC = () => {
   const navigation = useNavigation();
   const [tokens, setTokens] = useState();
   const [data, setData] = useState();
-  const [user, setUser] = useState();
+  const [user, setUser] = useState<LoginParams>();
 
   useEffect(() => {
     if (!user && !tokens) {

@@ -8,7 +8,7 @@ type RootStackParamList = {
   MainScreen: undefined;
 };
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const Navigation: React.FC<RootStackParamList> = () => {
   return (

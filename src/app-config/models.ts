@@ -1,8 +1,3 @@
-interface LoginParams {
-  email: string;
-  password: string;
-}
-
 interface User {
   id: number;
   username: string;
@@ -38,4 +33,8 @@ interface User {
   vacation_days: number;
 }
 
-export {LoginParams, User};
+interface RootState {
+  isLoad: boolean;
+  currentPost: any;
+}
+export {User, RootState};

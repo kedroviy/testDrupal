@@ -5,6 +5,7 @@ import {useSelector} from 'react-redux';
 import {useNavigation} from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+import {RootState} from '../../app-config/models.ts';
 import {API, STRING, ROUTES} from '../../app-config/constants.ts';
 import {getData} from '../../services/api/client.ts';
 
@@ -12,7 +13,7 @@ import style from './newsDetailsScreen.style.ts';
 
 const NewsDetailsScreen: React.FC = () => {
   const navigation = useNavigation();
-  const storageData = useSelector(state => state.appReducer);
+  const storageData = useSelector((state: RootState) => state.appReducer);
   const [post, setPost] = useState();
   const [tokens, setTokens] = useState();
 

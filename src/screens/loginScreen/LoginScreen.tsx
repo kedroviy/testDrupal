@@ -6,6 +6,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import {setIsLoad, setCurrentPost} from '../../redux/actions/appActions.ts';
+import {RootState} from '../../app-config/models.ts';
 import {loginApi} from '../../services/api/client.ts';
 import {API, STRING, ROUTES} from '../../app-config/constants.ts';
 import style from './loginScreen.style.ts';
@@ -13,7 +14,7 @@ import style from './loginScreen.style.ts';
 const LoginScreen: React.FC = () => {
   const navigation = useNavigation();
   const dispatch = useDispatch();
-  const storageData = useSelector(state => state.appReducer);
+  const storageData = useSelector((state: RootState) => state.appReducer);
   const [email, setEmail] = useState<string>('bullet2271293@gmail.com');
   const [password, setPassword] = useState<string>('beta1234');
   const [isLoading, setIsLoading] = useState<boolean>(false);
