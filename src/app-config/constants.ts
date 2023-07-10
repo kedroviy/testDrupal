@@ -1,7 +1,6 @@
 const API = {
   AUTH: 'https://lzone.secret-agents.ru/api/v2/auth/sign_in',
   NEWS: 'https://lzone.secret-agents.ru/api/v2/news',
-  NEWS_ID: 'https://lzone.secret-agents.ru/api/v2/news/',
 };
 
 const STRING = {
