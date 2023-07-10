@@ -1,0 +1,369 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SimpleCard /> renders correctly 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f8f9fa",
+      "height": 300,
+      "justifyContent": "center",
+      "marginVertical": 20,
+      "width": "100%",
+    }
+  }
+>
+  <View
+    collapsable={false}
+    style={
+      {
+        "backgroundColor": "rgba(247, 243, 249, 1)",
+        "borderRadius": 12,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.15,
+        "shadowRadius": 3,
+      }
+    }
+    testID="card-container-outer-layer"
+  >
+    <View
+      collapsable={false}
+      style={
+        {
+          "backgroundColor": "rgba(247, 243, 249, 1)",
+          "borderRadius": 12,
+          "elevation": 1,
+          "flex": undefined,
+          "shadowColor": "#000",
+          "shadowOffset": {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.3,
+          "shadowRadius": 1,
+        }
+      }
+      testID="card-container"
+    >
+      <View
+        style={
+          [
+            {
+              "flexShrink": 1,
+            },
+            undefined,
+          ]
+        }
+        testID="card"
+      >
+        <View
+          style={
+            [
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "paddingLeft": 16,
+              },
+              {
+                "minHeight": 50,
+              },
+              undefined,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "flex": 1,
+                  "flexDirection": "column",
+                  "justifyContent": "center",
+                },
+              ]
+            }
+          >
+            <Text
+              numberOfLines={1}
+              style={
+                [
+                  {
+                    "textAlign": "left",
+                  },
+                  {
+                    "color": "rgba(28, 27, 31, 1)",
+                    "writingDirection": "ltr",
+                  },
+                  [
+                    {
+                      "fontFamily": "System",
+                      "fontSize": 16,
+                      "fontWeight": "400",
+                      "letterSpacing": 0.15,
+                      "lineHeight": 24,
+                    },
+                    [
+                      {
+                        "minHeight": 30,
+                        "paddingRight": 16,
+                      },
+                      {
+                        "marginBottom": 2,
+                      },
+                      undefined,
+                    ],
+                  ],
+                ]
+              }
+            >
+              Test Title
+            </Text>
+          </View>
+          <View />
+        </View>
+        <View
+          style={
+            [
+              {
+                "paddingHorizontal": 16,
+              },
+              undefined,
+              undefined,
+            ]
+          }
+        >
+          <Text
+            variant="titleLarge"
+          >
+            Test short text
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#eeeeee",
+                "height": 195,
+                "overflow": "hidden",
+              },
+              {
+                "borderRadius": 12,
+              },
+              undefined,
+            ]
+          }
+        >
+          <Image
+            accessibilityIgnoresInvertColors={true}
+            siblings={
+              [
+                "Card.Title",
+                "Card.Content",
+                "Card.Cover",
+                "Card.Actions",
+              ]
+            }
+            source={
+              {
+                "uri": "https://test.com/image.png",
+              }
+            }
+            style={
+              [
+                {
+                  "flex": 1,
+                  "height": undefined,
+                  "justifyContent": "flex-end",
+                  "padding": 16,
+                  "width": undefined,
+                },
+                {
+                  "borderRadius": 12,
+                },
+              ]
+            }
+          />
+        </View>
+        <View
+          index={3}
+          siblings={
+            [
+              "Card.Title",
+              "Card.Content",
+              "Card.Cover",
+              "Card.Actions",
+            ]
+          }
+          style={
+            [
+              {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "padding": 8,
+              },
+              undefined,
+              {
+                "justifyContent": "flex-end",
+              },
+            ]
+          }
+          total={4}
+        >
+          <View
+            collapsable={false}
+            style={
+              {
+                "backgroundColor": "rgba(103, 80, 164, 1)",
+                "borderRadius": 20,
+                "marginLeft": 8,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 0,
+                  "width": 0,
+                },
+                "shadowOpacity": 0,
+                "shadowRadius": 0,
+              }
+            }
+            testID="button-container-outer-layer"
+          >
+            <View
+              collapsable={false}
+              style={
+                {
+                  "backgroundColor": "rgba(103, 80, 164, 1)",
+                  "borderColor": "transparent",
+                  "borderRadius": 20,
+                  "borderStyle": "solid",
+                  "borderWidth": 0,
+                  "flex": undefined,
+                  "minWidth": 64,
+                  "shadowColor": "#000",
+                  "shadowOffset": {
+                    "height": 0,
+                    "width": 0,
+                  },
+                  "shadowOpacity": 0,
+                  "shadowRadius": 0,
+                }
+              }
+              testID="button-container"
+            >
+              <View
+                accessibilityRole="button"
+                accessibilityState={
+                  {
+                    "busy": undefined,
+                    "checked": undefined,
+                    "disabled": false,
+                    "expanded": undefined,
+                    "selected": undefined,
+                  }
+                }
+                accessibilityValue={
+                  {
+                    "max": undefined,
+                    "min": undefined,
+                    "now": undefined,
+                    "text": undefined,
+                  }
+                }
+                accessible={true}
+                collapsable={false}
+                focusable={true}
+                onBlur={[Function]}
+                onClick={[Function]}
+                onFocus={[Function]}
+                onResponderGrant={[Function]}
+                onResponderMove={[Function]}
+                onResponderRelease={[Function]}
+                onResponderTerminate={[Function]}
+                onResponderTerminationRequest={[Function]}
+                onStartShouldSetResponder={[Function]}
+                style={
+                  [
+                    {
+                      "overflow": "hidden",
+                    },
+                    {
+                      "borderRadius": 20,
+                    },
+                  ]
+                }
+                testID="button"
+              >
+                <View
+                  style={
+                    [
+                      {
+                        "alignItems": "center",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                      },
+                      undefined,
+                    ]
+                  }
+                >
+                  <Text
+                    numberOfLines={1}
+                    selectable={false}
+                    style={
+                      [
+                        {
+                          "textAlign": "left",
+                        },
+                        {
+                          "color": "rgba(28, 27, 31, 1)",
+                          "writingDirection": "ltr",
+                        },
+                        [
+                          {
+                            "fontFamily": "System",
+                            "fontSize": 14,
+                            "fontWeight": "500",
+                            "letterSpacing": 0.1,
+                            "lineHeight": 20,
+                          },
+                          [
+                            {
+                              "marginHorizontal": 16,
+                              "marginVertical": 9,
+                              "textAlign": "center",
+                            },
+                            false,
+                            {
+                              "marginHorizontal": 24,
+                              "marginVertical": 10,
+                            },
+                            false,
+                            false,
+                            {
+                              "color": "rgba(255, 255, 255, 1)",
+                              "fontFamily": "System",
+                              "fontSize": 14,
+                              "fontWeight": "500",
+                              "letterSpacing": 0.1,
+                              "lineHeight": 20,
+                            },
+                            undefined,
+                          ],
+                        ],
+                      ]
+                    }
+                    testID="button-text"
+                  >
+                    See details
+                  </Text>
+                </View>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
